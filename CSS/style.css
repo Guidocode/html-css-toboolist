@@ -9,6 +9,7 @@
 
 body{
   background-color: #F6F8F9;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
@@ -23,10 +24,28 @@ h1{
   color: #000000;
   font-size: 50px;
   line-height: 90px;
-  font-family: Arial, Helvetica, sans-serif;
   vertical-align: middle;
 }
 
+
+
+/* 
+  UTILITIES 
+*/
+/*
+  Do 
+  content: '\02713';
+ */
+
+/* 
+  Not do 
+  content: '\02715';
+*/
+
+/* 
+  Triangle
+  content: '\025BC';
+ */
 
 
 /* 
@@ -68,13 +87,57 @@ header .logo img{
   background-color: #FFFFFF;
   color: #C6CCD2;
 }
-
+ 
 
 
 
  /* 
   MAIN 
  */
+ main{
+  border-top: 3px solid #F6F8F9;
+  background-color: #FFFFFF;
+  padding: 30px 50px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.actions h2{
+  margin-bottom: 15px;
+}
+
+.actions h2::before{
+  content: '\025BC';
+}
+
+
+.actions ul {
+  list-style-type: none;
+}
+
+section .actions li{
+  font-size: 20px;
+}
 
 
 
+.do::before{
+  content: '\02713';
+  padding: 1px 4px;
+  color: #6AC4AF;
+  border: 1px solid #6AC4AF;
+  border-radius: 50%;
+}
+
+
+
+.label{
+  padding: 5px 10px;
+  border-radius: 12px;
+  border: 1px solid #C6CCD2;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.editorial{
+  background-color: #44ABE9;
+}
