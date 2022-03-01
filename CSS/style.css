@@ -157,6 +157,7 @@ section .actions li{
   background-color: #44ABE9;
 }
 
+
 .q1-goals{
   background-color: #9B72E4;
 }
@@ -167,4 +168,13 @@ section .actions li{
 
 .mobile{
   background-color: #F29E33; 
+}
+
+
+.website{
+  background-color: #D763A1; 
+}
+
+.sales{
+  background-color: #B0C925; 
 }
